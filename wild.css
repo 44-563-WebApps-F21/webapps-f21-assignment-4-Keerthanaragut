@@ -22,19 +22,36 @@
 }
 .LORDGORING{
  color:blueviolet;
+ background-color:orchid;
+ border: 2px solid;
+}
+.LORDGORING:hover{
+    color:navy;
+    background-color:mediumturquoise;
+    filter: blur(1px);
 }
 .JAMES{
     color:purple;
+    background-color: plum;
+    border: 2px solid;
+}
+
+.JAMES:hover{
+    color:fuchsia;
+    background-color:lightblue;
+    filter: blur(1px);
 }
 .LORDCAVERSHAM{
     color:lightseagreen;
+    background-color:powderblue;
+    border: 2px solid;
 }
 
-/* .LORDCAVERSHAM:hover{
+.LORDCAVERSHAM:hover{
     color:blue;
     background-color:cornflowerblue;
     filter: blur(1px);
-} */
+}
 table{
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
